@@ -9,11 +9,13 @@ This is for <b>Real Time</b> objcet detection on whatever is displayed on your m
 
 
 ## Current Functionality
-flags:
-use `--objects` flag to specifiy what objects you'd like to detect.
-defualt value is None which displays all detected objects from Coco.names dataset.
-use `--runtime` for number of minutes for program to run.
+flags:<br>
+* `--objects object1 object 2` to specifiy what objects you'd like to detect.<br> 
+defualt value None wdisplays all detected objects from Coco.names dataset.<br>
+* `--runtime 10` to run for 10 minutes. <br>
+pass number as digit to set runtime of program.<br>
 
 
 ## Future Updates
-Improve the method that draws the bounding boxes on the monitor. (GUI w/ tKinter)
+Improve method that draws the bounding boxes on the monitor. (GUI w/ tKinter).<br> 
+Import model trained on specific video game train/test data for more accurate auto-aim bot.
